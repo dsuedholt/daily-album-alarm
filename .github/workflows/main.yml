@@ -1,6 +1,7 @@
 name: Run Daily
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 5 * * *'  # Run at 5am UTC / GMT
 
