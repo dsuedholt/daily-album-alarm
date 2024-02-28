@@ -1,0 +1,5 @@
+.vscode/*
+venv/*
+.cache
+test.json
+requirements.in
