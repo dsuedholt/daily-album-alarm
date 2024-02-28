@@ -1,13 +1,13 @@
-Quick and simple Python script that will get the next album from a project on  [One Album A Day](https://1001albumsgenerator.com/) and populate a Spotify playlist with it. Github Actions are set up to run it once a day.
+Quick and simple Python script that will get the next album from a project on [One Album A Day](https://1001albumsgenerator.com/) and populate a Spotify playlist with it. Github Actions are set up to run it once a day.
 
-Useful to me because I have my alarm set to that playlist, and this automates populating it with the next album.
+Useful to me because I have my alarm set to that playlist, and this automates populates it with the next album.
 
 Should you want to do the same or find this useful for any other reason, here's some quick documentation.
 
 ### Setup
 
 The script expects the following environment variables to be set:
-- `ALBUM_PROJECT_ID`: The name of your project on  [One Album A Day](https://1001albumsgenerator.com/)
+- `ALBUM_PROJECT_ID`: The name of your project on [One Album A Day](https://1001albumsgenerator.com/)
 - `SPOTIFY_PLAYLIST_ID`: The Spotify ID (not URI) of the playlist that's being updated
 
 The script uses [spotipy](https://github.com/spotipy-dev/spotipy) to call the Spotify API. Spotipy requires the following environment variables:
